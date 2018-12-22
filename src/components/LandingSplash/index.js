@@ -4,7 +4,7 @@ import './index.scss';
 function LandingSplash() {
   return (
     <div id="landingSplash">
-      <img alt="RCE Landing Splash" />
+      <h1>Imagine the Unexpected</h1>
     </div>
   );
 }

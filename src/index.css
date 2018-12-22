@@ -23,7 +23,7 @@ body {
 }
 
 .primary-color {
-  color: #e25e70;
+  color: #e25e70 !important;
 }
 
 .text-color {

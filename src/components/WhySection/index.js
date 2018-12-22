@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.scss';
 
-function LandingSplash() {
+function WhySection() {
   return (
     <div id="why-section">
       <div className="wrap">
@@ -28,4 +28,4 @@ function LandingSplash() {
   );
 }
 
-export default LandingSplash;
+export default WhySection;
