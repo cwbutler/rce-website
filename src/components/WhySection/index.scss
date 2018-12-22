@@ -1,0 +1,45 @@
+#why-section {
+  padding: 120px 82px;
+
+  .wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #header {
+    max-width: 445px;
+    font-size: 86px;
+    font-weight: 900;
+    margin: 0;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  h2 {
+    font-size: 100px;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #100d53;
+  }
+
+  h6 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #100d53;
+    margin: 0;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+}
