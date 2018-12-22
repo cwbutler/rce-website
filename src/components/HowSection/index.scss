@@ -1,0 +1,50 @@
+#how-section {
+  padding: 100px 151px;
+
+  #header {
+    font-size: 86px;
+    text-align: center;
+    margin-bottom: 156px;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 231px;
+
+    img {
+      max-width: 660px;
+      width: 100%;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .text {
+    max-width: 480px;
+    font-size: 30px;
+  }
+
+  h6 {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .wearableImg {
+    margin-right: 96px;
+  }
+
+  .aiCloudTechImg {
+    margin-left: 37px;
+  }
+
+  .triageImg {
+    margin-right: 96px;
+  }
+
+}

@@ -3,6 +3,7 @@ import React from 'react';
 import LandingSplash from '../components/LandingSplash';
 import WhySection from '../components/WhySection';
 import WhatSection from '../components/WhatSection';
+import HowSection from '../components/HowSection';
 
 class LandingPage extends React.PureComponent {
   render() {
@@ -11,6 +12,7 @@ class LandingPage extends React.PureComponent {
         <LandingSplash />
         <WhySection />
         <WhatSection />
+        <HowSection />
       </div>
     );
   }
