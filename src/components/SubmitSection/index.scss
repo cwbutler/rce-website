@@ -64,4 +64,31 @@
       }
     }
   }
+
+  @media only screen and (max-width: 414px)  {
+    padding: 40px;
+
+    h1 {
+      font-size: 18px;
+      width: 100%;
+    }
+
+    #header {
+      margin-bottom: 48px;
+    }
+
+    form {
+      input {
+        font-size: 12px;
+        margin-bottom: 40px;
+      }
+
+      button {
+        width: 90px;
+        height: 22px;
+        font-size: 10px;
+        padding: 0;
+      }
+    }
+  }
 }

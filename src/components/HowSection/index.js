@@ -22,7 +22,7 @@ function HowSection() {
           </div>
         </div>
 
-        <div className="box">
+        <div className="box reverse">
           <div className="text">
             <h6>AI Cloud Technology</h6>
             <p>

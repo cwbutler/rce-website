@@ -58,4 +58,34 @@
   .hospital {
     margin-bottom: 35px;
   }
+
+  @media only screen and (max-width: 414px)  {
+    padding: 42px;
+
+    #header {
+      font-size: 26px;
+      margin-bottom: 52px;
+    }
+
+    .section {
+      flex-direction: column;
+    }
+
+    .box {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+
+    .reduce, .save, .hospital {
+      width: 80px;
+    }
+
+    .subHeader {
+      font-size: 18px;
+    }
+
+    .icon {
+      margin-bottom: 8px;
+    }
+  }
 }
