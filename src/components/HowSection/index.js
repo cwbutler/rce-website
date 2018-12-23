@@ -11,7 +11,7 @@ function HowSection() {
         <h1 id="header" className="primary-color">How are we doing this?</h1>
 
         <div className="box">
-          <img src={Wearable} alt="Wearable Tech" className="wearableImg" />
+          <img src={Wearable} alt="Wearable Tech" className="wearableImg" rel="preload" />
 
           <div className="text">
             <h6>Wearable Tech</h6>
@@ -31,11 +31,11 @@ function HowSection() {
             </p>
           </div>
 
-          <img src={AI} alt="AI Cloud Tech" className="aiCloudTechImg" />
+          <img src={AI} alt="AI Cloud Tech" className="aiCloudTechImg" rel="preload" />
         </div>
 
         <div className="box">
-          <img src={Triage} alt="Triage App" className="triageImg"  />
+          <img src={Triage} alt="Triage App" className="triageImg" rel="preload"  />
 
           <div className="text">
             <h6>Triage App</h6>

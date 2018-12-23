@@ -12,17 +12,17 @@ function WhatSection() {
 
         <div className="section">
           <div className="box">
-            <img src={ReduceInterventions} className="icon reduce" alt="Reduce Invasive Interventions" />
+            <img src={ReduceInterventions} className="icon reduce" alt="Reduce Invasive Interventions" rel="preload" />
             <h2 className="subHeader reduceInterventions">Reduce Invasive Interventions</h2>
           </div>
 
           <div className="box">
-            <img src={SaveLives} className="icon save" alt="Save More Lives" />
+            <img src={SaveLives} className="icon save" alt="Save More Lives" rel="preload" />
             <h2 className="subHeader saveLives">Save More Lives</h2>
           </div>
 
           <div className="box">
-            <img src={Hospital} className="icon hospital" alt="Reduce Hospital Costs" />
+            <img src={Hospital} className="icon hospital" alt="Reduce Hospital Costs" rel="preload" />
             <h2 className="subHeader reduceCosts">Reduce Hospital Costs</h2>
           </div>
         </div>
