@@ -1,7 +1,7 @@
 {
-  "main.css": "/rce-website/static/css/main.472c2e56.chunk.css",
-  "main.js": "/rce-website/static/js/main.6d76462c.chunk.js",
-  "main.js.map": "/rce-website/static/js/main.6d76462c.chunk.js.map",
+  "main.css": "/rce-website/static/css/main.00241dd0.chunk.css",
+  "main.js": "/rce-website/static/js/main.338db92b.chunk.js",
+  "main.js.map": "/rce-website/static/js/main.338db92b.chunk.js.map",
   "static/js/1.051fa31d.chunk.js": "/rce-website/static/js/1.051fa31d.chunk.js",
   "static/js/1.051fa31d.chunk.js.map": "/rce-website/static/js/1.051fa31d.chunk.js.map",
   "runtime~main.js": "/rce-website/static/js/runtime~main.75cf2056.js",
@@ -10,8 +10,8 @@
   "static/media/AI_image.png": "/rce-website/static/media/AI_image.4ddfdc39.png",
   "static/media/Rectangle.png": "/rce-website/static/media/Rectangle.8aa389ee.png",
   "static/media/wearable_image.png": "/rce-website/static/media/wearable_image.14edaf9a.png",
-  "static/css/main.472c2e56.chunk.css.map": "/rce-website/static/css/main.472c2e56.chunk.css.map",
+  "static/css/main.00241dd0.chunk.css.map": "/rce-website/static/css/main.00241dd0.chunk.css.map",
   "index.html": "/rce-website/index.html",
-  "precache-manifest.d8d165b873707f012e2a3a1bcb1c6d55.js": "/rce-website/precache-manifest.d8d165b873707f012e2a3a1bcb1c6d55.js",
+  "precache-manifest.d097e7a7094dde5224e483ef01990240.js": "/rce-website/precache-manifest.d097e7a7094dde5224e483ef01990240.js",
   "service-worker.js": "/rce-website/service-worker.js"
 }
