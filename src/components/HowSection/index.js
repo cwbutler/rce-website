@@ -1,5 +1,8 @@
 import React from 'react';
 import './index.scss';
+import Wearable from '../../assets/wearable_image.png';
+import AI from '../../assets/AI_image.png';
+import Triage from '../../assets/Rectangle.png';
 
 function HowSection() {
   return (
@@ -8,7 +11,7 @@ function HowSection() {
         <h1 id="header" className="primary-color">How are we doing this?</h1>
 
         <div className="box">
-          <img alt="Wearable Tech" className="wearableImg" />
+          <img src={Wearable} alt="Wearable Tech" className="wearableImg" />
 
           <div className="text">
             <h6>Wearable Tech</h6>
@@ -28,11 +31,11 @@ function HowSection() {
             </p>
           </div>
 
-          <img alt="AI Cloud Tech" className="aiCloudTechImg" />
+          <img src={AI} alt="AI Cloud Tech" className="aiCloudTechImg" />
         </div>
 
         <div className="box">
-          <img alt="Triage App" className="triageImg"  />
+          <img src={Triage} alt="Triage App" className="triageImg"  />
 
           <div className="text">
             <h6>Triage App</h6>
