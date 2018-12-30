@@ -5,13 +5,24 @@
   .wrap {
     display: flex;
     flex-direction: column;
-    max-width: 616px;
+    max-width: 723px;
     align-items: center;
     justify-content: center;
   }
 
   #header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 83px;
+
+    .main {
+      width: 100%;
+      color: white;
+      font-size: 48px;
+      margin-bottom: 91px;
+    }
   }
 
   h1 {
@@ -76,6 +87,11 @@
 
     #header {
       margin-bottom: 48px;
+
+      .main {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
     }
 
     form {

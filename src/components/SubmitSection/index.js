@@ -13,7 +13,7 @@ class SubmitSection extends React.PureComponent {
       <div id="submit-section">
         <div className="wrap">
           <div id="header">
-            <h1 className="primary-color">Let’s Save Lives Together</h1>
+            <h1 className="main">Heart Attacks Happen Every Day, <br /> But They Don’t Have To</h1>
             <h1 className="primary-color">Invest Early to Save Early</h1>
           </div>
 

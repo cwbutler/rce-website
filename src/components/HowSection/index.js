@@ -8,26 +8,26 @@ function HowSection() {
   return (
     <div id="how-section">
       <div className="wrap">
-        <h1 id="header" className="primary-color">How are we doing this?</h1>
+        <h1 id="header" className="primary-color">The Future</h1>
 
         <div className="box">
           <img src={Wearable} alt="Wearable Tech" className="wearableImg" rel="preload" />
 
           <div className="text">
-            <h6>Wearable Tech</h6>
+            <h6>01 <br />Wearable Tech</h6>
             <p>
-              Quick write-up talking about the wearable tech and a little bit about how it will help
-              patients. Also add a little bit about the technology behind the wearable.
+              Unique optic sensors non-invasively detect protein biomarkers present in the blood and 
+              ECG sensors woven into comfortable fabric produce a 3D representation of heart data. 
             </p>
           </div>
         </div>
 
         <div className="box reverse">
           <div className="text">
-            <h6>AI Cloud Technology</h6>
+            <h6>02 <br />AI Cloud Technology</h6>
             <p>
-              Quick write-up talking about the wearable tech and a little bit about how it will help
-              patients. Also add a little bit about the technology behind the wearable.
+              Continuously streamed data to our cloud based AI models allow for learned patterns and changes 
+              in heart function to be detected and sent to on-call cardiologists.
             </p>
           </div>
 
@@ -38,10 +38,10 @@ function HowSection() {
           <img src={Triage} alt="Triage App" className="triageImg" rel="preload"  />
 
           <div className="text">
-            <h6>Triage App</h6>
+            <h6>03 <br />Triage App</h6>
             <p>
-              Quick write-up talking about the wearable tech and a little bit about how it will help
-              patients. Also add a little bit about the technology behind the wearable.
+              Our Triage Workflow exchanges recorded data with the cardiologist when a critical heart event is detected, 
+              allowing for an instant, life-saving decision and patient notification to seek immediate treatment. 
             </p>
           </div>
         </div>

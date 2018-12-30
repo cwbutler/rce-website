@@ -8,7 +8,7 @@ function WhatSection() {
   return (
     <div id="what-section">
       <div className="wrap">
-        <h1 id="header" className="primary-color">What can we do?</h1>
+        <h1 id="header" className="primary-color">The Opportunity</h1>
 
         <div className="section">
           <div className="box">
