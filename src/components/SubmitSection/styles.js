@@ -1,4 +1,4 @@
-export default {
+export default theme => ({
   root: {
     width: '100%',
   },
@@ -8,7 +8,10 @@ export default {
     top: 10,
     '&:focused': {
       color: 'white'
-    }
+    },
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 14
+    },
   },
   input: {
     width: '100%',
@@ -18,7 +21,11 @@ export default {
     paddingRight: 5,
     fontSize: 20,
     color: 'white',
-    marginBottom: 68
+    marginBottom: 68,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 12,
+      marginBottom: 40
+    },
   },
   underline: {
     borderBottom: '2px solid #100d53',
@@ -39,4 +46,4 @@ export default {
   focused: {
     color: 'white !important'
   }
-};
+});
