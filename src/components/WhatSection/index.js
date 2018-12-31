@@ -1,8 +1,8 @@
 import React from 'react';
 import './index.scss';
 import ReduceInterventions from '../../assets/ambulance.png';
-import SaveLives from '../../assets/holding-hands.png';
-import Hospital from '../../assets/hospital.png';
+import SaveLives from '../../assets/people_icon.png';
+import Hospital from '../../assets/hospital_icon.png';
 
 function WhatSection() {
   return (
