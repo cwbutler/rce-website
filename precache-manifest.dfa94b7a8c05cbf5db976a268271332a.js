@@ -4,6 +4,10 @@ self.__precacheManifest = [
     "url": "/rce-website/static/media/wearable_image.14edaf9a.png"
   },
   {
+    "revision": "c7dced8e83799805412c7b4e1e006020",
+    "url": "/rce-website/static/media/hospital_icon.c7dced8e.png"
+  },
+  {
     "revision": "8aa389eedd3614fb6887fb55d279cc09",
     "url": "/rce-website/static/media/Rectangle.8aa389ee.png"
   },
@@ -20,19 +24,19 @@ self.__precacheManifest = [
     "url": "/rce-website/static/js/runtime~main.75cf2056.js"
   },
   {
-    "revision": "763f4b91a1696bf51e3e",
-    "url": "/rce-website/static/js/main.763f4b91.chunk.js"
+    "revision": "44f5f80c149257b94207",
+    "url": "/rce-website/static/js/main.44f5f80c.chunk.js"
   },
   {
     "revision": "34822c397c5f9e717a76",
     "url": "/rce-website/static/js/1.34822c39.chunk.js"
   },
   {
-    "revision": "763f4b91a1696bf51e3e",
-    "url": "/rce-website/static/css/main.f6be92bf.chunk.css"
+    "revision": "44f5f80c149257b94207",
+    "url": "/rce-website/static/css/main.63bd5f2d.chunk.css"
   },
   {
-    "revision": "2b49501862294f72aad2481ad1cf2cd8",
+    "revision": "c3f1621eac53ae5cf9b207028a917ecb",
     "url": "/rce-website/index.html"
   }
 ];
