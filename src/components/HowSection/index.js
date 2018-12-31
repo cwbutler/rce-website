@@ -16,7 +16,7 @@ function HowSection() {
           <div className="text">
             <h6>01 <br />Wearable Tech</h6>
             <p>
-              Unique optic sensors non-invasively detect protein biomarkers present in the blood while 
+              Unique optical sensors non-invasively detect protein biomarkers present in the blood while 
               ECG sensors woven into comfortable fabric produce a 3D representation of heart data. 
             </p>
           </div>
