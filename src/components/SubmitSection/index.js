@@ -1,5 +1,8 @@
 import React from 'react';
 import './index.scss';
+import TextField from '@material-ui/core/TextField';
+import { withStyles } from '@material-ui/core/styles';
+import styles from './styles';
 
 class SubmitSection extends React.PureComponent {
   state = {
@@ -9,6 +12,17 @@ class SubmitSection extends React.PureComponent {
   };
 
   render() {
+    const { classes } = this.props;
+    const inputClasses = {
+      root: classes.input,
+      underline: classes.underline
+    };
+    const inputLabelClasses = {
+      root: classes.label,
+      shrink: classes.shrink,
+    };
+    const formLabelClasses = { focused: classes.focused };
+  
     return (
       <div id="submit-section">
         <div className="wrap">
@@ -18,31 +32,49 @@ class SubmitSection extends React.PureComponent {
           </div>
 
           <form>
-            <input
+            <TextField
               type="text"
               name="name"
               value={this.state.name}
               onChange={this.changeValue('name')}
-              placeholder="Full Name"
+              label="Full Name"
               required
+              InputProps={{ classes: inputClasses }}
+              classes={{ root: classes.root }}
+              InputLabelProps={{
+                classes: inputLabelClasses,
+                FormLabelClasses: formLabelClasses
+              }}
             />
 
-            <input
+            <TextField
               type="email"
               name="email"
               value={this.state.email}
               onChange={this.changeValue('email')}
-              placeholder="Email Address"
+              label="Email Address"
               required
+              InputProps={{ classes: inputClasses }}
+              classes={{ root: classes.root }}
+              InputLabelProps={{
+                classes: inputLabelClasses,
+                FormLabelClasses: formLabelClasses
+              }}
             />
 
-            <input
+            <TextField
               type="tel"
               name="phone"
               value={this.state.phone}
               onChange={this.changeValue('phone')}
-              placeholder="Phone Number"
+              label="Phone Number"
               required
+              InputProps={{ classes: inputClasses }}
+              classes={{ root: classes.root }}
+              InputLabelProps={{
+                classes: inputLabelClasses,
+                FormLabelClasses: formLabelClasses
+              }}
             />
 
 
@@ -60,4 +92,4 @@ class SubmitSection extends React.PureComponent {
   changeValue = (key) => (event) => this.setState({ [key]: event.target.value });
 }
 
-export default SubmitSection;
+export default withStyles(styles)(SubmitSection);

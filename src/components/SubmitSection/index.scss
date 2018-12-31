@@ -44,21 +44,6 @@
     align-items: center;
     width: 100%;
 
-    input {
-      background-color: transparent;
-      border: none;
-      font-size: 20px;
-      color: white;
-      border-bottom: 1px solid white;
-      margin-bottom: 68px;
-      width: 100%;
-      padding: 10px 0;
-
-      &::placeholder {
-        color: white;
-      }
-    }
-
     button {
       background-color: #e25e70;
       color: #100d53;
