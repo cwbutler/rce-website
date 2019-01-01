@@ -62,6 +62,7 @@
 
     h2 {
       font-size: 30px;
+      margin: 0;
     }
 
     h6 {
@@ -70,6 +71,39 @@
 
     .box {
       margin-bottom: 32px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 414px) and (max-width: 1024px)  {
+    padding: 64px;
+
+    .wrap {
+      flex-direction: column;
+    }
+
+    #header {
+      font-size: 76px;
+      margin-bottom: 80px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 90px;
+      margin: 0;
+    }
+
+    h6 {
+      font-size: 30px;
+    }
+
+    .box {
+      margin-bottom: 80px;
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }

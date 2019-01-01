@@ -72,6 +72,9 @@
     .box {
       width: 100%;
       margin-bottom: 50px;
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
 
     .reduce, .save, .hospital {
@@ -84,6 +87,49 @@
 
     .icon {
       margin-bottom: 8px;
+    }
+  }
+
+  @media only screen and (min-width: 414px) and (max-width: 1024px)  {
+    padding: 64px;
+
+    .wrap {
+      flex-direction: column;
+    }
+
+    #header {
+      font-size: 76px;
+      margin: 0;
+      margin-bottom: 80px;
+      text-align: center;
+    }
+
+    .section {
+      flex-direction: column;
+    }
+
+    .box {
+      width: 100%;
+      margin-bottom: 80px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .reduce {
+      width: 136px;
+    }
+    
+    .hospital {
+      width: 136px;
+    }
+
+    .subHeader {
+      font-size: 34px;
+    }
+
+    .icon {
+      margin-bottom: 24px;
     }
   }
 }
