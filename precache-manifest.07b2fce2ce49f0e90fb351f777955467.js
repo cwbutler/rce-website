@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "14edaf9a202b4cfd6d7da6c7f685df38",
-    "url": "/rce-website/static/media/wearable_image.14edaf9a.png"
+    "revision": "20178a9901c0a766cdee58373e0356f3",
+    "url": "/rce-website/static/media/option_02.20178a99.jpg"
   },
   {
     "revision": "c7dced8e83799805412c7b4e1e006020",
@@ -24,19 +24,19 @@ self.__precacheManifest = [
     "url": "/rce-website/static/js/runtime~main.75cf2056.js"
   },
   {
-    "revision": "3454dd1641335190d596",
-    "url": "/rce-website/static/js/main.3454dd16.chunk.js"
+    "revision": "77d95621b507810d8acc",
+    "url": "/rce-website/static/js/main.77d95621.chunk.js"
   },
   {
-    "revision": "34822c397c5f9e717a76",
-    "url": "/rce-website/static/js/1.34822c39.chunk.js"
+    "revision": "be5be464383fca614652",
+    "url": "/rce-website/static/js/1.be5be464.chunk.js"
   },
   {
-    "revision": "3454dd1641335190d596",
-    "url": "/rce-website/static/css/main.b52537ec.chunk.css"
+    "revision": "77d95621b507810d8acc",
+    "url": "/rce-website/static/css/main.ffe25c3b.chunk.css"
   },
   {
-    "revision": "073afbd633162735b0cc3663f0d8b9bd",
+    "revision": "5f7deb867f25038ab89222c03aeba41a",
     "url": "/rce-website/index.html"
   }
 ];
