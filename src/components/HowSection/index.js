@@ -11,15 +11,17 @@ function HowSection() {
         <h1 id="header" className="primary-color">The Future</h1>
 
         <div className="box">
-          <img src={Wearable} alt="Wearable Tech" className="wearableImg" rel="preload" />
-
-          <div className="text">
-            <h6>Wearable Tech</h6>
-            <p>
-              Unique optical sensors non-invasively detect protein biomarkers present in the blood while 
-              ECG sensors woven into comfortable fabric produce a 3D representation of heart data. 
-            </p>
+          <div className="image wearable">
+            <img src={Wearable} alt="Wearable Tech" className="wearableImg" rel="preload" />
           </div>
+          
+          <div className="text">
+              <h6>Wearable Tech</h6>
+              <p>
+                Unique optical sensors non-invasively detect protein biomarkers present in the blood while 
+                ECG sensors woven into comfortable fabric produce a 3D representation of heart data. 
+              </p>
+            </div>
         </div>
 
         <div className="box reverse">
@@ -31,11 +33,15 @@ function HowSection() {
             </p>
           </div>
 
-          <img src={AI} alt="AI Cloud Tech" className="aiCloudTechImg" rel="preload" />
+          <div className="image ai">
+            <img src={AI} alt="AI Cloud Tech" className="aiCloudTechImg" rel="preload" />
+          </div>
         </div>
 
         <div className="box">
-          <img src={Triage} alt="Triage App" className="triageImg" rel="preload"  />
+          <div className="image triage">
+            <img src={Triage} alt="Triage App" className="triageImg" rel="preload"  />
+          </div>
 
           <div className="text">
             <h6>Triage App</h6>

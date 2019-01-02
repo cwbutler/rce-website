@@ -7,6 +7,23 @@
     margin-bottom: 156px;
   }
 
+  .image {
+    width: 50%;
+    text-align: center;
+
+    &.wearable {
+      margin-right: 96px;
+    }
+
+    &.ai {
+      margin-left: 37px;
+    }
+  
+    &.triage {
+      margin-right: 96px;
+    }
+  }
+
   .box {
     display: flex;
     flex-direction: row;
@@ -25,26 +42,17 @@
   }
 
   .text {
-    max-width: 480px;
     font-size: 30px;
+
+    p {
+      max-width: 480px;
+    }
   }
 
   h6 {
     font-size: 36px;
     margin: 0;
     margin-bottom: 20px;
-  }
-
-  .wearableImg {
-    margin-right: 96px;
-  }
-
-  .aiCloudTechImg {
-    margin-left: 37px;
-  }
-
-  .triageImg {
-    margin-right: 96px;
   }
 
   @media only screen and (max-width: 414px)  {
@@ -59,6 +67,20 @@
     .box {
       flex-direction: column;
       margin-bottom: 40px;
+
+      .image {
+        &.wearable {
+          margin-right: 0;
+        }
+    
+        &.ai {
+          margin-left: 0;
+        }
+      
+        &.triage {
+          margin-right: 0;
+        }
+      }
 
       img {
         width: 100%;
@@ -78,6 +100,10 @@
     .text {
       font-size: 14px;
       text-align: center;
+
+      p {
+        text-align: center;
+      }
     }
 
     h6 {
@@ -103,6 +129,20 @@
       flex-direction: column;
       margin-bottom: 80px;
 
+      .image {
+        &.wearable {
+          margin-right: 0;
+        }
+    
+        &.ai {
+          margin-left: 0;
+        }
+      
+        &.triage {
+          margin-right: 0;
+        }
+      }
+
       img {
         width: 100%;
         max-width: 550px;
@@ -124,6 +164,10 @@
       max-width: 448px;
       font-size: 30px;
       text-align: center;
+
+      p {
+        text-align: center;
+      }
     }
 
     h6 {
