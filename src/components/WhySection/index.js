@@ -10,12 +10,12 @@ function WhySection() {
         <div className="section">
           <div className="box">
             <h2>75 mins</h2>
-            <h6>Avg. door to balloon</h6>
+            <h6>Avg. Door To Balloon</h6>
           </div>
 
           <div className="box">
             <h2>$20K</h2>
-            <h6>Avg. Hospilization Cost</h6>
+            <h6>Avg. Hospitalization Cost</h6>
           </div>
 
           <div className="box">
