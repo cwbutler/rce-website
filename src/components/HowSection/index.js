@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.scss';
-import Wearable from '../../assets/wearable_image.png';
+import Wearable from '../../assets/option_02.jpg';
 import AI from '../../assets/AI_image.png';
 import Triage from '../../assets/Rectangle.png';
 
