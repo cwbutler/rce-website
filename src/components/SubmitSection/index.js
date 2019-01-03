@@ -118,7 +118,7 @@ class SubmitSection extends React.PureComponent {
   submit = (event) => {
     event.preventDefault();
 
-    axios.post('http://34.228.64.81:5557/api/getContactData', {
+    axios.post('//34.228.64.81:5557/api/getContactData', {
       email: this.state.email,
       name: this.state.name,
       phone: this.state.phone,
