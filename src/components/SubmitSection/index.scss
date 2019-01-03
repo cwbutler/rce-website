@@ -1,6 +1,7 @@
 #submit-section {
   background-color: #100d53;
   padding: 80px;
+  padding-bottom: 24px !important;
 
   .wrap {
     display: flex;
@@ -44,6 +45,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    flex: 1;
 
     button {
       background-color: #e25e70;
@@ -54,12 +56,18 @@
       border: none;
       font-size: 20px;
       font-weight: bold;
+      margin-bottom: 48px;
 
       &:disabled {
         color: black;
         background-color: gray;
       }
     }
+  }
+
+  .copyright {
+    color: white;
+    text-align: center;
   }
 
   .confirm {
