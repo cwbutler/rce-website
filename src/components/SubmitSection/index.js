@@ -3,7 +3,6 @@ import './index.scss';
 import TextField from '@material-ui/core/TextField';
 import { withStyles } from '@material-ui/core/styles';
 import styles from './styles';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'; 
 import axios from 'axios';
 import ConfirmMessage from './confirmMessage';
 
@@ -106,6 +105,7 @@ class SubmitSection extends React.PureComponent {
           )}
 
           <small className="copyright">&#169; {(new Date()).getFullYear()} RCE Technologies, Inc. All Rights Reserved.</small>
+          <small className="copyright">Atlanta, GA</small>
         </div>
       </div>
     );
