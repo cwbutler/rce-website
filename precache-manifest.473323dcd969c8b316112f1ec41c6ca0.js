@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/rce-website/static/css/main.979bf629.chunk.css"
   },
   {
-    "revision": "c5a378d3888ea1651e7163ccd09d472c",
+    "revision": "4a3dbbb01b9253cf6e1f4596fe7e653e",
     "url": "/rce-website/index.html"
   }
 ];
