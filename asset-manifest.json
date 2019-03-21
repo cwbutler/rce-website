@@ -1,7 +1,7 @@
 {
-  "main.css": "/rce-website/static/css/main.bee7c764.chunk.css",
-  "main.js": "/rce-website/static/js/main.b8512255.chunk.js",
-  "main.js.map": "/rce-website/static/js/main.b8512255.chunk.js.map",
+  "main.css": "/rce-website/static/css/main.322691fe.chunk.css",
+  "main.js": "/rce-website/static/js/main.4a8d3ccb.chunk.js",
+  "main.js.map": "/rce-website/static/js/main.4a8d3ccb.chunk.js.map",
   "static/js/1.bcf9a612.chunk.js": "/rce-website/static/js/1.bcf9a612.chunk.js",
   "static/js/1.bcf9a612.chunk.js.map": "/rce-website/static/js/1.bcf9a612.chunk.js.map",
   "runtime~main.js": "/rce-website/static/js/runtime~main.75cf2056.js",
@@ -11,8 +11,8 @@
   "static/media/AI_image.png": "/rce-website/static/media/AI_image.4ddfdc39.png",
   "static/media/Rectangle.png": "/rce-website/static/media/Rectangle.8aa389ee.png",
   "static/media/hospital_icon.png": "/rce-website/static/media/hospital_icon.c7dced8e.png",
-  "static/css/main.bee7c764.chunk.css.map": "/rce-website/static/css/main.bee7c764.chunk.css.map",
+  "static/css/main.322691fe.chunk.css.map": "/rce-website/static/css/main.322691fe.chunk.css.map",
   "index.html": "/rce-website/index.html",
-  "precache-manifest.ff1ed1908b2050b1117a22964e793977.js": "/rce-website/precache-manifest.ff1ed1908b2050b1117a22964e793977.js",
+  "precache-manifest.3d00eab4833078cc48a07e7b98f52c36.js": "/rce-website/precache-manifest.3d00eab4833078cc48a07e7b98f52c36.js",
   "service-worker.js": "/rce-website/service-worker.js"
 }
