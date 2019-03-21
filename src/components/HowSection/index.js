@@ -31,6 +31,7 @@ function HowSection() {
               Continuously streamed data to our cloud based AI models allow for learned patterns and changes 
               in heart function to be detected and sent to on-call cardiologists.
             </p>
+            <a href="/research">Learn More &gt;&gt;</a>
           </div>
 
           <div className="image ai">
