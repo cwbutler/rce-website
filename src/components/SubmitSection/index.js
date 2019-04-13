@@ -105,7 +105,6 @@ class SubmitSection extends React.PureComponent {
           )}
 
           <small className="copyright">&#169; {(new Date()).getFullYear()} RCE Technologies, Inc. All Rights Reserved.</small>
-          <small className="copyright">Atlanta, GA</small>
         </div>
       </div>
     );
