@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.edd79a20.chunk.css",
-  "main.js": "/static/js/main.7d4cf437.chunk.js",
-  "main.js.map": "/static/js/main.7d4cf437.chunk.js.map",
+  "main.css": "/static/css/main.322691fe.chunk.css",
+  "main.js": "/static/js/main.8704cf63.chunk.js",
+  "main.js.map": "/static/js/main.8704cf63.chunk.js.map",
   "static/js/1.bcf9a612.chunk.js": "/static/js/1.bcf9a612.chunk.js",
   "static/js/1.bcf9a612.chunk.js.map": "/static/js/1.bcf9a612.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -11,8 +11,8 @@
   "static/media/AI_image.png": "/static/media/AI_image.4ddfdc39.png",
   "static/media/Rectangle.png": "/static/media/Rectangle.8aa389ee.png",
   "static/media/hospital_icon.png": "/static/media/hospital_icon.c7dced8e.png",
-  "static/css/main.edd79a20.chunk.css.map": "/static/css/main.edd79a20.chunk.css.map",
+  "static/css/main.322691fe.chunk.css.map": "/static/css/main.322691fe.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.bddc712842dcbeab754aa55a3dd5a81f.js": "/precache-manifest.bddc712842dcbeab754aa55a3dd5a81f.js",
+  "precache-manifest.6f3bf6352285613e17456874208606c8.js": "/precache-manifest.6f3bf6352285613e17456874208606c8.js",
   "service-worker.js": "/service-worker.js"
 }
