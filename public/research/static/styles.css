@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  overflow: hidden;
+  background-color: #eff0f1;
+}
+
+#container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: radial-gradient(#fff 25%, #eff0f1 60%);
+}
+
+#main {
+  position: absolute;
+  left: 0;
+  right: 400px;
+  top: 0;
+  bottom: 0;
+}
+
+#main svg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#side-plots {
+  font-size: 14px;
+  display: block;
+  width: 400px;
+  border-left: 1px solid rgba(0,0,0,.2);
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(255,255,255,.5);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.sunken {
+  text-shadow: 0 1px 0 rgba(255,255,255,.2), 0 -1px 0 rgba(0,0,0,.2);
+}
+
+.agent-header {
+  flex: 1;
+  width: 50%;
+  padding: 10px;
+  position: relative;
+}
+
+.agent-header .name {
+  font-size: 20px;
+  transition: color 250ms ease-out;
+}
+
+.agent-header .mmr {
+  font-size: 15px;
+  color: #999;
+}
+
+.agent-header .mmr span {
+  transition: color 250ms ease-out;
+  color: #444;
+}
+
+#agent1 {
+  text-align: right;
+}
+
+.agent-header h1 {
+  color: #444;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#win-rate {
+  white-space: nowrap;
+  text-align: center;
+  padding: 5px 5px 10px 5px;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#clear-button {
+  padding: 10px;
+}
+
+#unit-stats {
+  padding: 20px;
+}
+
+#unit-stats ul {
+  list-style-type: none;
+  font-size: 12px;
+}
+
+#unit-stats li {
+  display: flex;
+  width: 100%;
+  height: 1.4em;
+  transition: opacity 250ms ease-out;
+  line-height: 1.4em;
+}
+
+#unit-stats li span {
+    position: relative;
+}
+
+#unit-stats li:nth-child(odd) {
+}
+
+#unit-stats li span.number {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  padding: 0 10px;
+}
+
+#unit-stats span.left span.number {
+  left: auto;
+  right: 0;
+}
+
+#unit-stats li:hover span.number {
+  display: block;
+}
+
+#unit-stats li:hover span.value {
+  opacity: .1;
+}
+
+#unit-stats span {
+  display: inline-block;
+}
+
+#unit-stats .name {
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+  vertical-align: super;
+}
+
+#unit-stats span.value,
+#unit-stats span.value {
+  height: 1.4em;
+  transition: width 250ms ease-out;
+  border-top: 1px solid rgba(255,255,255,.2);
+  border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+#unit-stats .left span.value {
+  float: right;
+}
+
+#side-plots h2 {
+  font-size: 14px;
+  text-align: center;
+  color: #444;
+}
+
+#side-plots .description {
+  padding: 10px 20px;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+}
+
+svg circle {
+  transition: fill 250ms ease-out, fill 250ms ease-out;
+  cursor: pointer;
+}
+
+svg .selection {
+  transition: opacity 250ms ease-out;
+}
+
+svg path.selection {
+  cursor: pointer;
+}
+
+#title {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  padding: 20px;
+  font-size: 24px;
+  pointer-events: none;
+}
+
+#tech-tree {
+  display: flex;
+}
+
+#tech-tree svg text {
+  font-size: 12px;
+}
+
+#tech-tree svg rect, #tech-tree svg g, #tech-tree svg text {
+  transition: opacity 250ms ease-out, fill 250ms ease-out, stroke 250ms ease-out;
+}
+
+.label {
+  stroke: rgba(255,255,255,.5);
+  font-size: 10px;
+  stroke-opacity:1;
+  fill: black;
+  font-weight: bold;
+  pointer-events: none;
+  paint-order: stroke;
+}
+
+button, select {
+  padding: 0;
+  border: none;
+  font: inherit;
+  font-size: 10px;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  padding: 0.5em 1em;
+  margin: 2px 0;
+  padding: 2px 2px;
+  font-weight: normal;
+  font-size: inherit;
+}
+
+button:hover, select:hover {
+  background-color: white;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+  scrollbar-width: none;
+}
+
+#sticky {
+  position: sticky;
+  top: 0;
+  background-color: #fefefe;
+  border-bottom: 1px solid #e4e4e4;
+  z-index: 100;
+}
+
+#scroll {
+  padding-top: 20px;
+}
+
+.units-composition {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.units-composition select {
+  margin-left: .5em;
+}
+
+#selected-unit {
+  display: none;
+}
+
+#map-controls {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  font-size: 24px;
+}
+
+#map-controls button {
+  width: 35px;
+  height: 35px;
+  font-size: 1em;
+  display: block;
+  padding: 0em;
+  margin: 2px 0;
+}
+
+.agent-header svg {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 6px;
+  top: 6px;
+}
+
+#agent2 svg {
+  right: 6px;
+  left: auto;
+}
+
+
+.active {
+  width: 38px;
+  height: 38px;
+  border-radius: 100%;
+  position: absolute;
+  top: 5px;
+  transition: opacity 250ms ease-out;
+}
+
+.active-left {
+  left: 3px;
+  background: rgba(183,0,0,.1);
+}
+
+.active-right {
+  right: 3px;
+  background: rgba(0,0,183,.1);
+}
+
+#options {
+  font-size: 12px;
+  pointer-events: all;
+  width: fit-content;
+}
+
+#legend {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+}
+
+#legend {
+  font-size: 12px;
+}
+
+#legend .gradient span {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+}
+
+#container {
+  display: none;
+}
+
+#container.vertical #main {
+  right: 0;
+  bottom: 50%;
+}
+
+#container.vertical #side-plots {
+  width: 100%;
+  height: 50%;
+  right: 0;
+  bottom: 0;
+  top: auto;
+  border-left: none;
+  border-top: 1px solid rgba(0,0,0,.2);
+}
+
+#container.vertical .block {
+  width: 100%;
+  height: 100%;
+}
+
+#container.vertical #sticky {
+  position: relative;
+  height: auto;
+}
+
+#container.vertical #title {
+  background-color: rgba(255,255,255,.8);
+}
